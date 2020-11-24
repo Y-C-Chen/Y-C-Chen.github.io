@@ -1,1 +1,193 @@
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a>
+<html><head>
+		<title>Tic-Tac-Toe Research</title>
+		<link rel="Shortcut Icon" type="image/x-icon" href="https://i.imgur.com/gQOAnhS.jpg">
+		<meta name="description" content="Tic-Tac-Toe Research">
+		<meta name="keywords" content="Tic-Tac-Toe Researc, Tic-Tac-Toe, Edit-Mr, Px123">
+		<meta name="author" content="Edit Mr.&amp;PX123">
+            <style type="text/css">
+			header, section, footer, aside, nav, article, figure, figcaption {
+				display: block;}
+			body {
+				color: #FFFFFF;
+				background-color: #494949;
+				background-image: url("images/dark-wood.jpg");
+				background-position: center;
+				font-family: Georgia, Times, serif;
+				line-height: 1.4em;
+				margin: 0px;}
+			.wrapper {
+				width: 1000px;
+				margin: 20px auto 20px auto;
+				border: 2px solid #000000;
+				background-color: #222222;}
+			header {
+				height: 80px;
+				background-color: #222222;}
+			nav, footer {
+				clear: both;
+				color: #ffffff;
+				background-color: #375a7f;
+				height: 30px;}
+			nav ul {
+				margin: 0px;
+				padding: 5px 0px 5px 30px;}
+			nav li {
+				display: inline;
+				margin-right: 40px;}
+			nav li a {
+				color: #ffffff;}
+			nav li a:hover, nav li a.current {
+				color: #000000;}
+			section.courses {
+				float: right;
+				width: 725px;
+				padding: 0px 19px 0px 0px;
+                margin-right: 20px}
+			article {
+				clear: both;
+				overflow: auto;
+				width: 100%;}
+			hgroup {
+				margin-top: 40px;}
+			figure {
+				float: right;
+				width: 290px;
+				height: 220px;
+				padding: 5px;
+				margin: 20px;
+				border: 0px}
+			figcaption {
+				font-size: 90%;
+				text-align: left;}
+			aside {
+				width: 155px;
+				float: left;
+				padding: 0px 19px 0px 19px;
+                margin-left: 20px}
+			aside section a {
+				display: block;
+				padding: 10px;
+				border-bottom: 1px solid #eeeeee;}
+			aside section a:hover {
+				color: #985d6a;
+				background-color: #efefef;}
+			a {
+				color: #de6581;
+				text-decoration: none;}
+			h3 {
+				margin: 10px 0px 5px 20px;
+				padding: 0px;}
+			h4 {
+				margin: 0px 0px 10px 20px;
+				color: #de6581;}
+			aside h2 {
+				padding: 30px 0px 10px 0px;
+				color: #de6581;}
+			footer {
+				font-size: 80%;
+				padding: 7px 0px 0px 19px;}
+			h1 {
+				padding: 0px 0px 0px 20px;
+                background-color: #222222
+                color: White}
+			iframe {
+				margin: 0px auto;
+				display: block;}
+			section.solution {
+				float: left;
+				width: 1000;
+				padding: 0px;
+				margin: 0px;
+				background-color: #d4bb99;
+                margin-bottom: 20px}
+			.solution h2, .solution h3{
+				font-weight: bold}
+            aside, section.courses {
+                border: 2px solid #cccccc}
+            .solution iframe {
+				margin: 0px auto;
+				display: block;
+            	float: right;}
+            .solution figure {
+				float: right;
+				width: 700;
+				height: auto;
+				padding: 0px;
+				margin: 20px;
+				border: 0px;}
+            .solution iframe {
+			margin: 5px;;
+				display: block;}
+            .solution h2, p, .solution h3{
+				margin: auto auto auto 20px;
+				padding: 0px;}
+            
+		</style>
+      </head><body>
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	
+	
+		<div class="wrapper">
+			<header>
+				<h1>Tic-Tac-Toe Research</h1>
+				<nav>
+					<ul>
+						<li><a href="" class="current">Home</a></li>
+						<li><a href="">Git Hub</a></li>
+						<li><a href="">Release</a></li>
+						<li><a href="">History</a></li>
+						<li><a href="">About</a></li>
+                                                <li><a href="">Youtube</a></li>
+					</ul>
+					
+				</nav>
+			</header>
+<section class="solution">
+                <figure>
+                    <iframe width="400" height="223" src="https://www.youtube.com/embed/g7Il0PCWZTY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <iframe src="https://scratch.mit.edu/projects/429701720/embed" allowtransparency="true" width="270" height="223" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+    </figure>
+    <hgroup>
+        <h2>Play the Tic-Tac-Toe Game</h2>
+        <h3>With the solution we find out</h3>
+        <p>tic tac toe experience 3.0</p>
+        </hgroup></section>			<aside>
+				<section class="about">
+					<h2>About</h2>
+    <p>This is a project
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="創用 CC 授權條款" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a>
+</p>
+				</section>
+				<section class="release">
+					<h2>Release</h2>
+					<a href="">Yakitori (grilled chicken)</a>
+					<a href="">Tsukune (minced chicken patties)</a>
+					<a href="">Okonomiyaki (savory pancakes)</a>
+					<a href="">Mizutaki (chicken stew)</a>
+				</section>
+			</aside>
+			<section class="courses">
+				<article>
+					<figure>
+						<iframe src="https://scratch.mit.edu/projects/177139018/embed" allowtransparency="true" width="242.5" height="201" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+						<figcaption>Bok Choi</figcaption>
+					</figure>
+					<hgroup>
+						<h3>Japanese Vegetarian</h3>
+						<h4>Five week course in London</h4>
+					</hgroup>
+					<p>A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes.</p>
+				</article>    
+				   
+			</section>
+			<footer>
+				© By Edit Mr.&amp; Y-C-Chen
+			</footer>
+		</div><!-- .wrapper -->
+
+
+
+
+</body></html>
